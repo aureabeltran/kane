@@ -1,5 +1,4 @@
 @import url(bootstrap.css);
-@import url(../font-awesome/css//font-awesome.css);
 .materialize-red {
   background-color: #e51c23 !important; }
 
@@ -6163,7 +6162,7 @@ nav ul li {
     color: white; }
     .navbar .navbar-nav > li > a:hover {
       background-color: white;
-      color: #43a047;
+      color: #388e3c;
       font-weight: bold; }
 
 .background {
@@ -6179,9 +6178,12 @@ nav ul li {
     color: white;
     font-size: 23px; }
 
-.palette h3 {
-  padding: 10px;
-  border-bottom: 1px solid black;
+hr {
+  width: 30%;
+  text-align: center;
+  margin-bottom: 30px; }
+
+.palette {
   text-align: center; }
 
 .colores {
@@ -6195,7 +6197,7 @@ nav ul li {
   .box1:hover {
     color: white;
     font-weight: bold;
-    background-color: #20adca; }
+    background-color: #3dc5e0; }
 
 .box2 {
   background-color: #a7dbdb;
@@ -6205,7 +6207,7 @@ nav ul li {
   .box2:hover {
     color: white;
     font-weight: bold;
-    background-color: #5fbdbd; }
+    background-color: #83cccc; }
 
 .box3 {
   background-color: #e0e4cc;
@@ -6215,7 +6217,7 @@ nav ul li {
   .box3:hover {
     color: white;
     font-weight: bold;
-    background-color: #b7c189; }
+    background-color: #ccd2ab; }
 
 .box4 {
   background-color: #f38630;
@@ -6225,7 +6227,7 @@ nav ul li {
   .box4:hover {
     color: white;
     font-weight: bold;
-    background-color: #b3550a; }
+    background-color: #e36b0d; }
 
 .box5 {
   background-color: #fa6900;
@@ -6235,7 +6237,7 @@ nav ul li {
   .box5:hover {
     color: white;
     font-weight: bold;
-    background-color: #943e00; }
+    background-color: #c75400; }
 
 .box6 {
   background-color: #E94C6F;
@@ -6245,7 +6247,7 @@ nav ul li {
   .box6:hover {
     color: white;
     font-weight: bold;
-    background-color: #b8173b; }
+    background-color: #e31f4a; }
 
 .box7 {
   background-color: #542733;
@@ -6255,7 +6257,7 @@ nav ul li {
   .box7:hover {
     color: white;
     font-weight: bold;
-    background-color: #0e0709; }
+    background-color: #31171e; }
 
 .box8 {
   background-color: #5A6A62;
@@ -6265,7 +6267,7 @@ nav ul li {
   .box8:hover {
     color: white;
     font-weight: bold;
-    background-color: #2b332f; }
+    background-color: #434e49; }
 
 .box9 {
   background-color: #C6D5CD;
@@ -6275,7 +6277,7 @@ nav ul li {
   .box9:hover {
     color: white;
     font-weight: bold;
-    background-color: #8baa99; }
+    background-color: #a9bfb3; }
 
 .box10 {
   background-color: #FDF200;
@@ -6285,7 +6287,7 @@ nav ul li {
   .box10:hover {
     color: white;
     font-weight: bold;
-    background-color: #979000; }
+    background-color: #cac100; }
 
 .box11 {
   background-color: #DB3340;
@@ -6295,7 +6297,7 @@ nav ul li {
   .box11:hover {
     color: white;
     font-weight: bold;
-    background-color: #8f1922; }
+    background-color: #ba212d; }
 
 .box12 {
   background-color: #E8B71A;
@@ -6305,7 +6307,7 @@ nav ul li {
   .box12:hover {
     color: white;
     font-weight: bold;
-    background-color: #8e6f0e; }
+    background-color: #bc9413; }
 
 .box13 {
   background-color: #F7EAC8;
@@ -6315,7 +6317,7 @@ nav ul li {
   .box13:hover {
     color: white;
     font-weight: bold;
-    background-color: #eac86f; }
+    background-color: #f1d99b; }
 
 .box14 {
   background-color: #1FDA9A;
@@ -6325,7 +6327,7 @@ nav ul li {
   .box14:hover {
     color: white;
     font-weight: bold;
-    background-color: #12815b; }
+    background-color: #19ad7a; }
 
 .box15 {
   background-color: #28ABE3;
@@ -6335,7 +6337,7 @@ nav ul li {
   .box15:hover {
     color: white;
     font-weight: bold;
-    background-color: #136c92; }
+    background-color: #198dbf; }
 
 .box16 {
   background-color: #588C73;
@@ -6345,7 +6347,7 @@ nav ul li {
   .box16:hover {
     color: white;
     font-weight: bold;
-    background-color: #314d40; }
+    background-color: #446d59; }
 
 .box17 {
   background-color: #F2E394;
@@ -6355,7 +6357,7 @@ nav ul li {
   .box17:hover {
     color: white;
     font-weight: bold;
-    background-color: #e7cb39; }
+    background-color: #ecd767; }
 
 .box18 {
   background-color: #F2AE72;
@@ -6365,7 +6367,7 @@ nav ul li {
   .box18:hover {
     color: white;
     font-weight: bold;
-    background-color: #e97815; }
+    background-color: #ee9343; }
 
 .box19 {
   background-color: #D96459;
@@ -6375,7 +6377,7 @@ nav ul li {
   .box19:hover {
     color: white;
     font-weight: bold;
-    background-color: #a63126; }
+    background-color: #d03d30; }
 
 .box20 {
   background-color: #8C4646;
@@ -6385,7 +6387,7 @@ nav ul li {
   .box20:hover {
     color: white;
     font-weight: bold;
-    background-color: #482424; }
+    background-color: #6a3535; }
 
 .box21 {
   background-color: #D0C91F;
@@ -6395,7 +6397,7 @@ nav ul li {
   .box21:hover {
     color: white;
     font-weight: bold;
-    background-color: #777312; }
+    background-color: #a49e18; }
 
 .box22 {
   background-color: #85C4B9;
@@ -6405,7 +6407,7 @@ nav ul li {
   .box22:hover {
     color: white;
     font-weight: bold;
-    background-color: #4a998b; }
+    background-color: #63b3a5; }
 
 .box23 {
   background-color: #008BBA;
@@ -6415,7 +6417,7 @@ nav ul li {
   .box23:hover {
     color: white;
     font-weight: bold;
-    background-color: #003f54; }
+    background-color: #006587; }
 
 .box24 {
   background-color: #DF514C;
@@ -6425,7 +6427,7 @@ nav ul li {
   .box24:hover {
     color: white;
     font-weight: bold;
-    background-color: #a7231e; }
+    background-color: #d22b26; }
 
 .box25 {
   background-color: #DC403B;
@@ -6435,15 +6437,83 @@ nav ul li {
   .box25:hover {
     color: white;
     font-weight: bold;
-    background-color: #961f1b; }
+    background-color: #c12723; }
 
 .background-gray {
   background-color: #282D43;
-  color: white; }
+  color: white;
+  padding: 5% 0% 5% 0%; }
+  .background-gray h3 {
+    text-align: center;
+    margin-bottom: 20px; }
+  .background-gray p {
+    margin-bottom: 15px; }
   .background-gray img {
-    width: 100%; }
+    max-width: 100%; }
+  .background-gray h4 {
+    font-size: 15px; }
+  .background-gray .progress {
+    height: 10px; }
+  .background-gray h6 {
+    text-align: center;
+    margin-bottom: 30px; }
 
 .bg-green {
-  background-color: #43a047; }
+  background-color: #388e3c;
+  text-align: center;
+  color: white;
+  padding: 5% 0% 5% 0%; }
+  .bg-green .container {
+    width: 90%; }
+    .bg-green .container h6 {
+      margin-bottom: 40px; }
+    .bg-green .container .giro-360 {
+      padding: 60px; }
+      .bg-green .container .giro-360 hr {
+        width: 100%; }
+      .bg-green .container .giro-360:hover {
+        background-color: #1b451d; }
+      .bg-green .container .giro-360 img {
+        width: 50%;
+        -webkit-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
+        -moz-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
+        -webkit-transition: all 1s ease-out;
+        -moz-transition: all 1s ease;
+        -o-transition: all 1s ease; }
+        .bg-green .container .giro-360 img:hover {
+          -webkit-transform: rotate(-360deg);
+          -moz-transform: rotate(-360deg);
+          -o-transform: rotate(-360deg); }
+    .bg-green .container button {
+      background-color: #4A4A4A; }
+      .bg-green .container button:hover {
+        color: #388e3c; }
+    .bg-green .container .iconos .img-rounded {
+      display: inline-block;
+      background-color: white;
+      height: 25px;
+      width: 25px;
+      margin: 5px;
+      padding-top: 4px; }
+      .bg-green .container .iconos .img-rounded i {
+        color: #388e3c;
+        font-size: 15px; }
+
+.prices {
+  text-align: center;
+  border: 1px solid #388e3c;
+  padding: 20px 0px 20px 0px; }
+  .prices:hover {
+    margin-top: -40px; }
+  .prices p {
+    background-color: white;
+    color: black; }
+  .prices h5 {
+    font-size: 15px; }
+  .prices button {
+    background-color: #4A4A4A; }
+    .prices button:hover {
+      color: white;
+      background-color: #646464; }
 
 /*# sourceMappingURL=main.css.map */

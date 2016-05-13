@@ -1,12 +1,11 @@
 @import "bootstrap.css";
 @import "../../materialize-src/sass/materialize.scss";
-@import "../font-awesome/css//font-awesome.css";
 /** aqui termina el import**/
 /**style*/
 *{
 	font-style: roboto;
 }
-$main-color:#43a047;
+$main-color:#388e3c;
 
 @mixin list($list-hover) {
 }
@@ -40,12 +39,13 @@ nav ul li{
 		font-size: 23px;
 	}
 }
+hr{
+	width:30%;
+	text-align: center;
+	margin-bottom: 30px;
+}
 .palette{
-	h3{
-		padding: 10px;
-		border-bottom: 1px solid black;
-		text-align: center;
-	}
+	text-align: center;
 }
 @mixin color-caja ($background){
 	background-color: $background;
@@ -55,7 +55,7 @@ nav ul li{
 	&:hover{
 		color: white;
 		font-weight: bold;
-		background-color: darken($background, 20%);
+		background-color: darken($background, 10%);
 	}
 }
 .colores{
@@ -120,7 +120,8 @@ nav ul li{
 }
 .box20{
 	@include color-caja(#8C4646)
-}.box21{
+}
+.box21{
 	@include color-caja(#D0C91F);
 }
 .box22{
@@ -138,10 +139,101 @@ nav ul li{
 .background-gray{
 	background-color: #282D43;
 	color: white;
+	padding: 5% 0% 5% 0%;
+	h3{
+		text-align: center;
+		margin-bottom: 20px;
+	}
+	p{
+		margin-bottom: 15px;
+	}
 	img{
-		width: 100%;
+		max-width: 100%;
+	}
+	h4{
+		font-size: 15px;
+	}
+	.progress{
+		height: 10px;
+	}
+	h6{
+		text-align: center;
+		margin-bottom: 30px;
 	}
 }
 .bg-green{
 	background-color: $main-color;
+	text-align: center;
+	color: white;
+	padding: 5% 0% 5% 0%;
+	.container{
+		width: 90%;
+		h6{
+			margin-bottom: 40px;
+		}
+		.giro-360 {
+			padding: 60px;
+			hr{
+			width: 100%;
+			}
+		    &:hover{
+		    	background-color: darken($main-color, 20%);
+		    }
+			img {
+				width: 50%;
+			    -webkit-box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
+			    -moz-box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
+			    -webkit-transition: all 1s ease-out;
+			    -moz-transition: all 1s ease;
+			    -o-transition: all 1s ease;
+			  	&:hover {
+				    -webkit-transform: rotate(-360deg);
+				    -moz-transform: rotate(-360deg);
+				    -o-transform: rotate(-360deg);
+				}
+			}
+		}
+		button{
+			background-color: #4A4A4A;
+			&:hover{
+				color: $main-color;
+			}
+		}
+		.iconos{
+			.img-rounded{
+				display: inline-block;
+				background-color: white;
+				height:25px;
+				width: 25px;
+				margin: 5px;
+				padding-top: 4px;
+				i{
+					color: $main-color;
+					font-size: 15px;
+				}
+			}
+		}
+	}
+}
+.prices{
+	text-align: center;
+	border: 1px solid $main-color;
+	padding: 20px 0px 20px 0px;
+	&:hover{
+		margin-top: -40px;
+	}
+	p{
+		background-color: white;
+		color: black;
+	}
+	h5{
+		font-size: 15px;
+	}
+	button{
+			background-color: #4A4A4A;
+			&:hover{
+				color: white;
+				background-color: lighten(#4A4A4A,10%);
+			}
+		}
 }
