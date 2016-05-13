@@ -1,0 +1,147 @@
+@import "css/bootstrap.css";
+@import "../materialize-src/sass/materialize.scss";
+@import "font-awesome/css//font-awesome.css";
+/** aqui termina el import**/
+/**style*/
+*{
+	font-style: roboto;
+}
+$main-color:#43a047;
+
+@mixin list($list-hover) {
+}
+nav ul li{
+	padding: 8px !important;
+}
+
+.navbar{
+	margin-bottom: 0px;
+	.navbar-nav > li > a{
+		color:white;
+		&:hover{
+			background-color: white;
+			color: $main-color;
+			font-weight: bold;
+		}
+	}
+}
+.background{
+	background-image: url(img/carousel-bg.jpg);
+	width: 100%;
+	background-size: cover;
+	padding: 2% 2% 5% 2%;
+	text-align: center;
+	h1{
+		color: white;
+		font-size: 50px;
+	}
+	h5{
+		color: white;
+		font-size: 23px;
+	}
+}
+.palette{
+	h3{
+		padding: 10px;
+		border-bottom: 1px solid black;
+		text-align: center;
+	}
+}
+@mixin color-caja ($background){
+	background-color: $background;
+	width: 150px;
+	height: 150px;
+	display: inline-block;
+	&:hover{
+		color: white;
+		font-weight: bold;
+		background-color: darken($background, 20%);
+	}
+}
+.colores{
+	text-align: center;
+}
+.box1{
+	@include color-caja(#69d2e7);
+}
+.box2{
+	@include color-caja(#a7dbdb);
+}
+.box3{
+	@include color-caja(#e0e4cc)
+}
+.box4{
+	@include color-caja(#f38630)
+}
+.box5{
+	@include color-caja(#fa6900)
+}
+.box6{
+	@include color-caja(#E94C6F);
+}
+.box7{
+	@include color-caja(#542733);
+}
+.box8{
+	@include color-caja(#5A6A62)
+}
+.box9{
+	@include color-caja(#C6D5CD)
+}
+.box10{
+	@include color-caja(#FDF200)
+}
+.box11{
+	@include color-caja(#DB3340);
+}
+.box12{
+	@include color-caja(#E8B71A);
+}
+.box13{
+	@include color-caja(#F7EAC8)
+}
+.box14{
+	@include color-caja(#1FDA9A)
+}
+.box15{
+	@include color-caja(#28ABE3)
+}
+.box16{
+	@include color-caja(#588C73);
+}
+.box17{
+	@include color-caja(#F2E394);
+}
+.box18{
+	@include color-caja(#F2AE72)
+}
+.box19{
+	@include color-caja(#D96459)
+}
+.box20{
+	@include color-caja(#8C4646)
+}.box21{
+	@include color-caja(#D0C91F);
+}
+.box22{
+	@include color-caja(#85C4B9);
+}
+.box23{
+	@include color-caja(#008BBA);
+}
+.box24{
+	@include color-caja(#DF514C);
+}
+.box25{
+	@include color-caja(#DC403B);
+}
+.background-gray{
+	background-color: #282D43;
+	color: white;
+	img{
+		width: 100%;
+	}
+}
+.bg-green{
+	background-color: $main-color;
+}
