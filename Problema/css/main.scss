@@ -41,7 +41,6 @@ nav ul li{
 }
 hr{
 	width:30%;
-	text-align: center;
 	margin-bottom: 30px;
 }
 .palette{
@@ -160,6 +159,9 @@ hr{
 		text-align: center;
 		margin-bottom: 30px;
 	}
+	h5{
+		text-align: left;
+	}
 }
 .bg-green{
 	background-color: $main-color;
@@ -180,7 +182,8 @@ hr{
 		    	background-color: darken($main-color, 20%);
 		    }
 			img {
-				width: 50%;
+				width: 70%;
+				padding: 10%;
 			    -webkit-box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
 			    -moz-box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
 			    -webkit-transition: all 1s ease-out;
@@ -190,6 +193,7 @@ hr{
 				    -webkit-transform: rotate(-360deg);
 				    -moz-transform: rotate(-360deg);
 				    -o-transform: rotate(-360deg);
+				    background-color: #E98F39;
 				}
 			}
 		}
@@ -221,6 +225,7 @@ hr{
 	padding: 20px 0px 20px 0px;
 	&:hover{
 		margin-top: -40px;
+		background-color: lighten(#282D43, 10%);
 	}
 	p{
 		background-color: white;
@@ -236,4 +241,65 @@ hr{
 				background-color: lighten(#4A4A4A,10%);
 			}
 		}
+}
+.detalles{
+	text-align: center;
+	p{
+		padding: 0% 10% 0% 10%;
+		color: lighten(#4A4A4A,10%);
+	}
+}
+.forms{
+	padding: 8%;
+	input{
+		background-color: white;
+	}
+	textarea{
+		background-color: white;
+		height: 200px;
+	}
+	button{
+		background-color: #4A4A4A;
+			&:hover{
+				color: white;
+				background-color: darken(#4A4A4A, 10%)
+			}
+	}
+}
+
+.bg-image{
+	background-image: url(../img/img-divider-img.jpg);
+	background-size: cover;
+	height: 300px;
+	.container{
+	width: 90% ;
+		.iconos-redes{
+			display:inline-block;
+			margin: 10% 0% 0% 10%;
+			i{
+				color: white;
+				font-size: 100px;
+				padding: 20px;
+			}
+		}
+	}
+}
+footer{
+	background-color: $main-color;
+	color: white;
+	hr{
+		margin-left: -5px;
+	}
+	input{
+		background-color: white !important;
+		height: 25px !important;
+	}
+	.btn{
+		background-color: #4A4A4A;
+		text-align: center;
+			&:hover{
+				color: white;
+				background-color: darken(#4A4A4A, 10%)
+			}
+	}
 }

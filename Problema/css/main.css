@@ -6180,7 +6180,6 @@ nav ul li {
 
 hr {
   width: 30%;
-  text-align: center;
   margin-bottom: 30px; }
 
 .palette {
@@ -6457,6 +6456,8 @@ hr {
   .background-gray h6 {
     text-align: center;
     margin-bottom: 30px; }
+  .background-gray h5 {
+    text-align: left; }
 
 .bg-green {
   background-color: #388e3c;
@@ -6474,7 +6475,8 @@ hr {
       .bg-green .container .giro-360:hover {
         background-color: #1b451d; }
       .bg-green .container .giro-360 img {
-        width: 50%;
+        width: 70%;
+        padding: 10%;
         -webkit-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
         -moz-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
         -webkit-transition: all 1s ease-out;
@@ -6483,7 +6485,8 @@ hr {
         .bg-green .container .giro-360 img:hover {
           -webkit-transform: rotate(-360deg);
           -moz-transform: rotate(-360deg);
-          -o-transform: rotate(-360deg); }
+          -o-transform: rotate(-360deg);
+          background-color: #E98F39; }
     .bg-green .container button {
       background-color: #4A4A4A; }
       .bg-green .container button:hover {
@@ -6504,7 +6507,8 @@ hr {
   border: 1px solid #388e3c;
   padding: 20px 0px 20px 0px; }
   .prices:hover {
-    margin-top: -40px; }
+    margin-top: -40px;
+    background-color: #3b4263; }
   .prices p {
     background-color: white;
     color: black; }
@@ -6515,5 +6519,53 @@ hr {
     .prices button:hover {
       color: white;
       background-color: #646464; }
+
+.detalles {
+  text-align: center; }
+  .detalles p {
+    padding: 0% 10% 0% 10%;
+    color: #646464; }
+
+.forms {
+  padding: 8%; }
+  .forms input {
+    background-color: white; }
+  .forms textarea {
+    background-color: white;
+    height: 200px; }
+  .forms button {
+    background-color: #4A4A4A; }
+    .forms button:hover {
+      color: white;
+      background-color: #313131; }
+
+.bg-image {
+  background-image: url(../img/img-divider-img.jpg);
+  background-size: cover;
+  height: 300px; }
+  .bg-image .container {
+    width: 90%; }
+    .bg-image .container .iconos-redes {
+      display: inline-block;
+      margin: 10% 0% 0% 10%; }
+      .bg-image .container .iconos-redes i {
+        color: white;
+        font-size: 100px;
+        padding: 20px; }
+
+footer {
+  background-color: #388e3c;
+  color: white; }
+  footer hr {
+    margin-left: -5px; }
+  footer input {
+    background-color: white !important;
+    height: 25px !important; }
+  footer .btn, footer .btn-large {
+    background-color: #4A4A4A;
+    text-align: center; }
+    footer .btn:hover, footer .btn-large:hover {
+      color: white;
+      background-color: #313131; }
 
 /*# sourceMappingURL=main.css.map */
